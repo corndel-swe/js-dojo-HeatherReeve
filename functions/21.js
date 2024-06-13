@@ -9,4 +9,12 @@
  */
 export function isWithinRangeAndEven(num, lower, upper) {
   // TODO: Return true if num is greater than or equal to lower, less than or equal to upper, and even
+  // greater or equal to lower 
+  //less or equal to upper 
+  //num is even 
+  return num > lower && num < upper && num % 2 ===0
+
+
+
+
 }
