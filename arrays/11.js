@@ -8,4 +8,10 @@
 export function increasePrices(prices) {
   // TODO: Use the map() method to increase each price by 10%
   // TODO: Return the new array of increased prices
+return prices.map (addTenPercent)
+}
+
+function addTenPercent(n) { 
+  const tenPercent = n * 10 / 100
+  return tenPercent + n 
 }

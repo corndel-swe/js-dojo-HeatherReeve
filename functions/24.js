@@ -7,4 +7,7 @@
  */
 export function dayType(day) {
   // TODO: Return 'Weekday' for Monday to Friday, and 'Weekend' for Saturday and Sunday
+if (day === 'Saturday' || day === 'Sunday' ) return 'Weekend'
+  return 'Weekday'
 }
+

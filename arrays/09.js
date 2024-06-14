@@ -8,4 +8,6 @@
  */
 export function findYoungestAge(ages) {
   // TODO: Return the smallest age
+  return Math.min (...ages)
+
 }

@@ -8,4 +8,9 @@
 export function doubleLikes(likes) {
   // TODO: Use the map() method to double each like count
   // TODO: Return the new array with doubled likes
+ return likes.map (doubleIt)
+}
+
+function doubleIt(d) {
+  return d *2
 }
